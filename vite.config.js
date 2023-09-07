@@ -10,6 +10,7 @@ dotenv.config();
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: "/infantis-client-agency/",
   resolve: {
     alias: {
       util: 'rollup-plugin-node-polyfills/polyfills/util'
